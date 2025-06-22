@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/style.css" rel="stylesheet">
+
+    <title>Typemaster Landing Page</title>
+</head>
+<body class="flex flex-col items-center mx-auto max-w-sm md:min-w-3xl lg:max-w-[1440px] font-barlow">
+    <header class="bg-white w-full">
+        <div class="flex flex-row items-center justify-between mb-10 mt-6 mx-4 md:mt-10 md:mx-8 lg:mx-[170px]">
+            <img class="h-10" src="/assets/shared/logo.svg" alt="Logo Icon">
+            <button class="py-3 px-4 bg-neutral-200 rounded-lg text-neutral-900 text-base font-bold uppercase hover:bg-neutral-900 hover:text-white hover:cursor-pointer">pre-order now</button>
+        </div>
+    </header>
+    <main class="bg-white lg:relative">
+        <div class="hidden md:hidden lg:block lg:bg-neutral-200 lg:rounded-l-[20px] lg:w-[140px] lg:h-[240px] lg:absolute lg:right-0 lg:top-10"></div>
+        <div class="hidden md:hidden lg:block lg:bg-neutral-200 lg:rounded-r-[20px] lg:w-[140px] lg:h-[240px] lg:absolute lg:left-0 lg:bottom-147"></div>
+        <section class="md:ml-8 lg:mt-10 lg:mx-[170px]">
+            <div class="ml-4 md:flex md:flex-row overflow-hidden md:mx-0">
+                <div class="md:flex md:flex-col md:justify-center">
+                    <h2 class="font-black text-5xl uppercase text-neutral-900 mb-6">typemaster<br>keyboard</h2>
+                    <p class="font-medium text-base text-neutral-400 text-balance mb-8">Improve your productivity and gaming without breaking the bank. Upgrade to a high quality mechanical typing experience.</p>
+                    <div class="flex items-center mb-16">
+                        <button class="bg-orange-500 rounded-lg mr-6 py-4 px-8 text-base font-bold uppercase text-white hover:bg-orange-300 hover:cursor-pointer">pre-order now</button>
+                        <p class="text-neutral-400 font-bold text-base uppercase">release on 5/27</p>
+                    </div>
+                </div>
+                <img class="rounded-l-3xl ml-8 h-80 object-cover mb-6 md:h-[425px] lg:w-[540px] lg:h-[480px] lg:rounded-r-3xl" src="/assets/mobile/image-keyboard.jpg" alt="Keyboard Image">
+            </div>
+        </section>
+        <section class="md:ml-8 lg:flex lg:flex-row lg:justify-between lg:mx-[170px]">
+            <div class="flex md:mt-10">
+                <div class="w-[129px] h-[193px] bg-orange-500 rounded-r-3xl md:h-80 md:w-[214px] md:rounded-3xl lg:w-[255px] lg:h-[480px]">
+                    <img class="rounded-r-3xl opacity-40 md:object-cover h-full md:rounded-3xl" src="/assets/mobile/image-phone-and-keyboard.jpg" alt="Phone and Keyboard">
+                </div>
+                <div class="w-[220px] h-[193px] ml-4 md:h-80 md:w-[445px] md:ml-8 lg:w-[445px] lg:h-[480px]">
+                    <img class="rounded-3xl h-full w-full md:h-full lg:opacity-50" src="/assets/mobile/image-glass-and-keyboard.jpg" alt="Glass and Keyboard">
+                </div>
+            </div>
+            <div class="my-16 ml-4 md:flex md:flex-row md:justify-between lg:flex-col lg:w-[255px] lg:h-[254px]">
+                <h3 class="font-black text-[32px] uppercase leading-10 mb-6 md:mr-12">Mechanical<br>Wireless<br>Keyboard</h3>
+                <p class="font-medium text-base text-neutral-400 text-balance">The Typemaster keyboard boasts top-notch build and practical design. 
+                    It offers a wide variety of switches and keycaps, along with reliable wireless connectivity.</p>
+                </div>
+            </section>
+            <section class="mx-4 mb-16 md:grid md:grid-cols-2 md:grid-rows-2 md:mx-8 md:gap-8 md:my-20 lg:mx-[170px] lg:grid lg:grid-cols-4 lg:grid-rows-none lg:my-[120px]">
+            <div class="lg:w-[255px]">
+                <img class="bg-orange-500 p-5 rounded-2xl mb-8" src="/assets/shared/icon-compatible.svg" alt="Icon Compatible">
+                <p class="font-black text-2xl uppercase mb-5">Highly<br>Compatible</p>
+                <p class="font-medium text-base text-neutral-400 mb-10">Easy to use and works well with all major computer brands, gaming consoles and mobile devices. 
+                    Plug & play, no installation or driver needed.</p>
+            </div>
+            <div class="lg:w-[255px]">
+                <img class="bg-orange-500 p-5 rounded-2xl mb-8" src="/assets/shared/icon-bluetooth.svg" alt="Bluetooth Icon">
+                <p class="font-black text-2xl uppercase mb-5">wireless<br>with bluetooth</p>
+                <p class="font-medium text-base text-neutral-400 mb-10">Powerful 2.4G RF technology allows you to connect the cordless keyboard from up to 30ft away.
+                    Simply plug the unifying receiver into your computer.</p>
+            </div>
+            <div class="lg:w-[255px]">
+                <img class="bg-orange-500 p-5 rounded-2xl mb-8" src="/assets/shared/icon-battery.svg" alt="Battery Icon">
+                <p class="font-black text-2xl uppercase mb-5">High Capacity<br>Battery</p>
+                <p class="font-medium text-base text-neutral-400 mb-10">Equipped with a long-lasting built-in battery, you'll never have to spend a dime on replaceable ones.
+                    Enjoy 40 hours of usage time between charges.</p>
+            </div>
+            <div class="lg:w-[255px]">
+                <img class="bg-orange-500 p-5 rounded-2xl mb-8" src="/assets/shared/icon-light.svg" alt="Icon Light">
+                <p class="font-black text-2xl uppercase mb-5">rgb backlit<br>modes</p>
+                <p class="font-medium text-base text-neutral-400 mb-10">Choose from 4 backlight brightness levels and adjustable breathing speed.
+                    Each key glows intensely in the dark and helps you type in low light conditions.</p>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-white w-full">
+        <p class="font-medium text-base text-neutral-400 text-center mb-6 md:mb-20">Typemaster 2021 | All Rights Reserved</p>
+    </footer>
+    
+</body>
+</html>
